@@ -211,8 +211,6 @@ def update_orders_list():
         orders_list.insert(tk.END, f'{order[0]} - {order[1]} ({order[2]})')
 
 
-icon = tk.PhotoImage(file="book-stack-icon--icon-search-engine-16.png")
-root.iconphoto(False, icon)
 
 # Создаем поля для ввода информации о книге
 title_label = tk.Label(root, text="Название книги")
